@@ -1,0 +1,89 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #8b8b8b;
+	font-size: 12px;
+	transition: 0.5s;
+	&:hover {
+		color: #f34f3f;
+	}
+}
+.container-list {
+	padding-top: 4.563rem;
+	width: 90%;
+	margin: auto;
+	display: grid;
+	border-bottom: 0.3px solid silver;
+	grid-template-areas: "service company media archive" "reserved cards cards media_names ";
+	grid-auto-columns: minmax(auto,auto);
+}
+.container_info {
+	width: 90%;
+	margin: auto;
+	padding: 20px 0;
+	display: grid;
+	grid-template-areas: "reserved cards media_names ";
+	grid-auto-columns: minmax(auto,auto);
+}
+.service {
+	grid-area: service;
+}
+.company {
+	grid-area: company;
+}
+.media {
+	grid-area: media;
+}
+.archive {
+	grid-area: archive;
+	margin-bottom: 1rem;
+}
+.reserved {
+	grid-area: reserved;
+	>p {
+		color: silver;
+		font-size: 12px;
+	}
+}
+.cards {
+	text-align: center;
+	grid-area: cards;
+	cursor: pointer;
+}
+.media_names {
+	text-align: right;
+	grid-area: media_names;
+	>a {
+		font-size: 10px;
+		letter-spacing: .2em;
+		margin-left: 25px;
+	}
+}
+.footer {
+	width: 100%;
+	background-color: #fefaf3;
+}
+h3 {
+	padding-top: 0;
+	padding-bottom: 1.44rem;
+	font-size: 12px;
+	line-height: 2em;
+	font-weight: 500;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+	padding: 0 0 0.3rem;
+}
+hr {
+	width: 100%;
+}

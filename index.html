@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<style>
+   .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #dce2e7;
+    margin: auto;
+    
+    
+    
+    
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    border: none;
+    
+  }
+ .text{
+    font-size: 17px;
+    font-family: Lora,serif;
+ }
+ .text4{
+    font-size: 20px;
+    font-family: Lora,serif;
+ }
+ .button {
+    font-family: Lora,serif;;
+  background-color: #d81c03;
+  border: none;
+  color: rgb(255, 249, 249);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 13px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+ .button2 {
+  
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+ .buttonr {
+    font-family: Lora,serif;;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #f44336;
+  
+}
+
+.buttonr:hover {
+  background-color: #f44336;
+  color: white;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: auto ;
+    background-color: #dce2e7;
+}
+.grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0.5px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+    border: none;
+}
+.button3 {
+  background-color: #f44336; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family:Lora,serif;;
+}
+
+
+
+.buttonrd {width: 100%;}
+</style>
+<main>
+  <div class="grid-container">
+    <div class="grid-item">
+        <h4 class="text4">Solid</h4>
+        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br> Aenean commodo ligula eget dolor. Aenean massa. Cum sociis massa quis</p>
+        <button class="button ">BUTTON TEXT</button>
+    </div>
+    <div class="grid-item">
+        <h4 class="text4">Outline</h4>
+        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br> Aenean commodo ligula eget dolor. Aenean massa. Cum sociis massa quis</p>
+        <button class="button2 buttonr">BUTTON TEXT</button>
+    </div>
+    <div class="grid-item">
+        <h4 class="text4">Simple</h4>
+        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br> Aenean commodo ligula eget dolor. Aenean massa. Cum sociis massa quis</p>
+        <button class="">BUTTON TEXT</button>
+    </div>
+    <div class="grid-item">
+        <h4 class="text4">Small</h4>
+        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br> Aenean commodo ligula eget dolor. Aenean massa. Cum sociis massa quis</p>
+        <button class="button ">BUTTON TEXT</button>
+        
+    </div>
+    <div class="grid-item">
+        <h4 class="text4">Medium</h4>
+        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br> Aenean commodo ligula eget dolor. Aenean massa. Cum sociis massa quis</p>
+        <button class="button ">BUTTON TEXT</button>
+    </div>
+    <div class="grid-item">
+        <h4 class="text4">Large</h4>
+        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br> Aenean commodo ligula eget dolor. Aenean massa. Cum sociis massa quis</p>
+        <button class="button ">BUTTON TEXT</button>
+    </div>
+</div>
+<div class="grid2">
+    <div class="grid-item2">
+        <h4 class="text4">Huge</h4>
+        <p class="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede.</p>
+        <button class="button3 buttonrd">BUTTON TEXT</button>
+    </div>
+</div>
+</main>
+<body>
+  <footer class="footer">
+    <div class="container-list">
+      <div class="service">
+        <h3>Customer Service</h3>
+        <div>
+          <ul>
+            <li><a href="#">Help & Contact Us</a></li>
+            <li><a href="#">Returns & Refunds</a></li>
+            <li><a href="#">Online Stores</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="company">
+        <h3>company</h3>
+        <div>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">FAQ Page</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="media">
+        <div>
+          <h3>Social Media</h3>
+        </div>
+        <div>
+          <ul>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Tumblr</a></li>
+            <li><a href="#">Pinterest</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="archive">
+        <h3>Archive</h3>
+        <div>
+          <ul>
+            <li><a href="#">Designer Shoes</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Feature Index</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Help & Support</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container_info">
+      <div class="reserved">
+        <p>© 2018 <a href="https://qodeinteractive.com/">Qode Interactive</a>, All Rights Reserved</p>
+      </div>
+      <div class="cards">
+        <img src="https://fiorello.qodeinteractive.com/wp-content/uploads/2018/04/footer-bottom-1.png" alt="">
+      </div>
+      <div class="media_names">
+        <a href="">Instagram</a>
+        <a href="">Facebook</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
